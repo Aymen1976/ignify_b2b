@@ -5,60 +5,54 @@ import json
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# Liste des flux RSS IA spécialisés
+# Flux RSS ciblés pour l'IA
 RSS_FEEDS = [
     "https://www.technologyreview.com/feed/",
     "https://venturebeat.com/category/ai/feed/",
     "https://www.zdnet.com/topic/artificial-intelligence/rss.xml",
     "https://www.aitimejournal.com/feed",
     "https://www.analyticsvidhya.com/blog/category/news/feed/",
-    "https://spectrum.ieee.org/rss/artificial-intelligence",
+    "https://spectrum.ieee.org/rss/artificial-intelligence"
 ]
 
-# Mots-clés IA pertinents
+# Mots-clés pour filtrer les articles IA récents et pertinents
 KEYWORDS = [
-    "ai", "artificial intelligence", "machine learning", "deep learning", "neural network",
-    "chatbot", "openai", "llm", "gpt", "generative ai", "automation"
+    "AI", "artificial intelligence", "machine learning", "deep learning", "chatbot",
+    "neural network", "transformer", "LLM", "GPT", "openai", "automation"
 ]
 
-# Dossier de sortie
+# Création du dossier output
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Choix de la fenêtre de temps (24 ou 48 heures)
-HOURS_LIMIT = 48
-
 def is_recent(published_str):
+    """Vérifie si l'article a été publié il y a moins de 48h."""
     try:
-        published_time = datetime.strptime(published_str, "%a, %d %b %Y %H:%M:%S %z")
-        now = datetime.now(published_time.tzinfo)
-        return (now - published_time) <= timedelta(hours=HOURS_LIMIT)
+        published = datetime(*feedparser._parse_date(published_str)[:6])
+        return datetime.utcnow() - published < timedelta(hours=48)
     except Exception:
-        return False  # Ignore les dates invalides
+        return False
 
 def is_relevant(article):
+    """Vérifie si l'article contient des mots-clés IA récents."""
     text = (article.get("title", "") + " " + article.get("summary", "")).lower()
-    return any(keyword in text for keyword in KEYWORDS)
+    return any(keyword.lower() in text for keyword in KEYWORDS)
 
 def parse_feed(url):
-    print(f"📡 Lecture du flux : {url}")
+    print(f"Lecture du flux : {url}")
     feed = feedparser.parse(url)
     filtered_articles = []
 
     for entry in feed.entries:
-        published = entry.get("published", "")
-        if not is_recent(published):
-            continue
-
         article = {
             "title": entry.get("title"),
             "link": entry.get("link"),
-            "published": published,
+            "published": entry.get("published", ""),
             "summary": entry.get("summary", ""),
             "source": url
         }
 
-        if is_relevant(article):
+        if is_relevant(article) and is_recent(article["published"]):
             filtered_articles.append(article)
 
     return filtered_articles
@@ -70,7 +64,7 @@ def save_articles(articles):
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(articles, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ {len(articles)} articles pertinents enregistrés dans {output_file}")
+    print(f"{len(articles)} articles pertinents enregistrés dans {output_file}")
 
 def main():
     all_articles = []
