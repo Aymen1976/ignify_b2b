@@ -1,0 +1,4 @@
+streamlit
+fpdf
+feedparser
+python-dotenv
