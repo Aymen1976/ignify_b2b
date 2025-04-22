@@ -1,9 +1,9 @@
 import streamlit as st
 import json
 from pathlib import Path
-from src.scraper import main as run_scraper
-from src.signal_analyzer import process_file
-from src.exporter import generate_pdf, export_csv
+from scraper import main as run_scraper
+from signal_analyzer import process_file
+from exporter import generate_pdf, export_csv
 
 st.set_page_config(
     page_title="🧠 Rapport IA & Vente",
@@ -25,15 +25,13 @@ if st.button("🚀 Lancer le pipeline IA"):
 
         st.success(f"✅ {len(articles)} articles analysés avec succès.")
 
-        # Affichage des articles
         for art in articles:
-            with st.expander(f"📌 {art['title']}"):
+            with st.expander(f"📰 {art['title']}"):
                 st.markdown(f"**Résumé :** {art.get('summary', 'Aucun résumé')}")
                 st.markdown(f"**Tonalité :** {art.get('sentiment', 'Indéterminée')}")
                 st.markdown(f"**Date :** {art.get('published', 'Non précisée')}")
-                st.markdown(f"🔗 [Lire l'article]({art.get('link', '#')})")
+                st.markdown(f"[🔗 Lire l'article]({art.get('link', '#')})")
 
-        # Exports
         pdf_path = generate_pdf(articles)
         csv_path = export_csv(articles)
 
