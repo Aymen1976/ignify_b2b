@@ -83,4 +83,3 @@ def export_csv(articles):
 
     print(f"CSV généré : {csv_file}")
     return csv_file
-
