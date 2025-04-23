@@ -1,11 +1,8 @@
-# src/scraper.py
-
 import feedparser
-import json
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
+import json
 
-# Flux RSS ciblés pour l'IA
 RSS_FEEDS = [
     "https://www.technologyreview.com/feed/",
     "https://venturebeat.com/category/ai/feed/",
@@ -15,64 +12,42 @@ RSS_FEEDS = [
     "https://spectrum.ieee.org/rss/artificial-intelligence"
 ]
 
-# Mots-clés pour filtrer les articles IA récents et pertinents
 KEYWORDS = [
-    "AI", "artificial intelligence", "machine learning", "deep learning", "chatbot",
-    "neural network", "transformer", "LLM", "GPT", "openai", "automation"
+    "artificial intelligence", "IA", "AI", "machine learning", "deep learning",
+    "chatbot", "language model", "neural network", "automation", "LLM"
 ]
 
-# Création du dossier output
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-def is_recent(published_str):
-    """Vérifie si l'article a été publié il y a moins de 48h."""
-    try:
-        published = datetime(*feedparser._parse_date(published_str)[:6])
-        return datetime.utcnow() - published < timedelta(hours=48)
-    except Exception:
-        return False
-
 def is_relevant(article):
-    """Vérifie si l'article contient des mots-clés IA récents."""
     text = (article.get("title", "") + " " + article.get("summary", "")).lower()
     return any(keyword.lower() in text for keyword in KEYWORDS)
 
 def parse_feed(url):
-    print(f"Lecture du flux : {url}")
     feed = feedparser.parse(url)
-    filtered_articles = []
-
-    for entry in feed.entries:
-        article = {
-            "title": entry.get("title"),
-            "link": entry.get("link"),
+    return [
+        {
+            "title": entry.get("title", "Sans titre"),
+            "link": entry.get("link", ""),
             "published": entry.get("published", ""),
             "summary": entry.get("summary", ""),
             "source": url
         }
-
-        if is_relevant(article) and is_recent(article["published"]):
-            filtered_articles.append(article)
-
-    return filtered_articles
-
-def save_articles(articles):
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = OUTPUT_DIR / f"articles_{timestamp}.json"
-
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(articles, f, ensure_ascii=False, indent=2)
-
-    print(f"{len(articles)} articles pertinents enregistrés dans {output_file}")
+        for entry in feed.entries if is_relevant(entry)
+    ]
 
 def main():
     all_articles = []
-    for feed_url in RSS_FEEDS:
-        articles = parse_feed(feed_url)
-        all_articles.extend(articles)
+    for url in RSS_FEEDS:
+        all_articles.extend(parse_feed(url))
 
-    save_articles(all_articles)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = OUTPUT_DIR / f"articles_{timestamp}.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(all_articles, f, ensure_ascii=False, indent=2)
+    print(f"Articles enregistrés : {len(all_articles)} dans {output_file}")
+    return output_file
 
 if __name__ == "__main__":
     main()
