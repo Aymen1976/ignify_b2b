@@ -1,0 +1,9 @@
+# Ignorer tous les fichiers dans output sauf les exemples
+output/*
+!output/analyzed_articles_demo.json
+
+# Éviter de commit les fichiers sensibles ou locaux
+.env
+__pycache__/
+*.pyc
+.DS_Store
