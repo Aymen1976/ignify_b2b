@@ -1,1 +1,275 @@
-
+[
+  {
+    "title": "Roundtables: Brain-Computer Interfaces: From Promise to Product",
+    "link": "https://www.technologyreview.com/2025/04/23/1115741/roundtables-brain-computer-interfaces-from-promise-to-product/",
+    "published": "Wed, 23 Apr 2025 18:03:36 +0000",
+    "summary": "(Résumé auto) Recorded on April 23, 2025 Brain-Computer Interfaces: From Promise to Product Speakers: David Rotman, editor at large, and Antonio Regalado, senior editor for biomedicine. Brain-computer interfaces (B...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "The Download: introducing the Creativity issue",
+    "link": "https://www.technologyreview.com/2025/04/23/1115681/the-download-introducing-the-creativity-issue/",
+    "published": "Wed, 23 Apr 2025 12:10:00 +0000",
+    "summary": "(Résumé auto) This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Creativity issue The university c...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "3 Things Caiwei Chen is into right now",
+    "link": "https://www.technologyreview.com/2025/04/23/1114885/caiwei-chen-ai-openai-play-dinner-parties-sewing/",
+    "published": "Wed, 23 Apr 2025 09:00:00 +0000",
+    "summary": "(Résumé auto) A new play about OpenAI I recently saw Doomers, a new play by Matthew Gasda about the aborted 2023 coup at OpenAI, here represented by a fictional company called MindMesh. The action is set almost ent...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Why we still need AM radio",
+    "link": "https://www.technologyreview.com/2025/04/23/1114889/am-radio-disaster-response-emergency-safety/",
+    "published": "Wed, 23 Apr 2025 09:00:00 +0000",
+    "summary": "(Résumé auto) Ariel Aberg-Riger is the author of America Redux: Visual Stories from Our Dynamic History....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Seeing AI as a collaborator, not a creator",
+    "link": "https://www.technologyreview.com/2025/04/23/1114891/editors-letter-creativity-art-ai-collaboration-humanity-technology/",
+    "published": "Wed, 23 Apr 2025 09:00:00 +0000",
+    "summary": "(Résumé auto) The reason you are reading this letter from me today is that I was bored 30 years ago.&#160; I was bored and curious about the world and so I wound up spending a lot of time in the university computer...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Building better cities",
+    "link": "https://www.technologyreview.com/2025/04/22/1114314/building-better-cities/",
+    "published": "Tue, 22 Apr 2025 21:00:00 +0000",
+    "summary": "(Résumé auto) Clara Brenner, MBA ’12, arrived in Cambridge on the lookout for a business partner. She wanted to start her own ­company—and never have to deal with a boss again. She would go it alone if she had to, ...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Inside-out learning",
+    "link": "https://www.technologyreview.com/2025/04/22/1114317/inside-out-learning/",
+    "published": "Tue, 22 Apr 2025 21:00:00 +0000",
+    "summary": "(Résumé auto) When the prison doors first closed behind him more than 50 years ago, Lee Perlman, PhD ’89, felt decidedly unsettled. &#160; In his first job out of college, as a researcher for a consulting company w...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Unleashing the potential of qubits, one molecule at a time",
+    "link": "https://www.technologyreview.com/2025/04/22/1114326/unleashing-the-potential-of-qubits-one-molecule-at-a-time/",
+    "published": "Tue, 22 Apr 2025 21:00:00 +0000",
+    "summary": "(Résumé auto) It all began with a simple origami model.&#160; As an undergrad at Harvard, Danna Freedman went to a professor’s office hours for her general chemistry class and came across an elegant paper model tha...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "The Institute’s greatest ambassadors",
+    "link": "https://www.technologyreview.com/2025/04/22/1114334/the-institutes-greatest-ambassadors/",
+    "published": "Tue, 22 Apr 2025 21:00:00 +0000",
+    "summary": "(Résumé auto) After decades of working as a biologist at a Southern school with a Division&#160;1 football team, coming to MIT was a bit of a culture shock—in the best possible way. I’ve heard from MIT alumni all a...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Bug-size robots that fly and flip could pollinate futuristic farms’ crops",
+    "link": "https://www.technologyreview.com/2025/04/22/1114337/bug-size-robots-that-fly-and-flip-could-pollinate-futuristic-farms-crops/",
+    "published": "Tue, 22 Apr 2025 21:00:00 +0000",
+    "summary": "(Résumé auto) Tiny flying robots could perform such useful tasks as pollinating crops inside multilevel warehouses, boosting yields while mitigating some of agriculture’s harmful impacts on the environment. The lat...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Former DeepSeeker and collaborators release new method for training reliable AI agents: RAGEN",
+    "link": "https://venturebeat.com/ai/former-deepseeker-and-collaborators-release-new-method-for-training-reliable-ai-agents-ragen/",
+    "published": "Wed, 23 Apr 2025 20:04:00 +0000",
+    "summary": "(Résumé auto) RAGEN stands out not just as a technical contribution but as a conceptual step toward more autonomous, reasoning-capable AI agents....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Amazon’s SWE-PolyBench just exposed the dirty secret about your AI coding assistant",
+    "link": "https://venturebeat.com/ai/amazon-swe-polybench-just-exposed-the-dirty-secret-about-your-ai-coding-assistant/",
+    "published": "Wed, 23 Apr 2025 19:00:00 +0000",
+    "summary": "(Résumé auto) Amazon launches SWE-PolyBench, a groundbreaking multi-language benchmark that exposes critical limitations in AI coding assistants across Python, JavaScript, TypeScript, and Java while introducing new...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "OpenAI makes ChatGPT’s image generation available as API",
+    "link": "https://venturebeat.com/ai/openai-makes-chatgpts-image-generation-available-as-api/",
+    "published": "Wed, 23 Apr 2025 17:00:00 +0000",
+    "summary": "(Résumé auto) Enterprises can now make Studio Ghibli-inspired images through OpenAI's API....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "From friction to flow: Why Swissport scrapped its VPN maze for Cato’s SASE fabric",
+    "link": "https://venturebeat.com/security/swissport-reinvents-global-ops-with-unified-sase-stack/",
+    "published": "Wed, 23 Apr 2025 16:53:22 +0000",
+    "summary": "(Résumé auto) Swissport ditches legacy tech, deploying a global, Zero Trust SASE architecture with Cato Networks securing 26,000 users, unlocking real-time control....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Microsoft just launched powerful AI ‘agents’ that could completely transform your workday — and challenge Google’s workplace dominance",
+    "link": "https://venturebeat.com/ai/microsoft-just-launched-powerful-ai-agents-that-could-completely-transform-your-workday-and-challenge-googles-workplace-dominance/",
+    "published": "Wed, 23 Apr 2025 13:00:00 +0000",
+    "summary": "(Résumé auto) Microsoft unveils new AI reasoning agents and Copilot features to transform workplace productivity, with Chief Product Officer Aparna Chennapragada sharing exclusive insights on the company's vision f...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "$42.1 million poured into startup offering energy-efficient solutions for costly and unwieldy operational data and AI workloads",
+    "link": "https://venturebeat.com/data-infrastructure/42-1-million-poured-into-startup-offering-energy-efficient-solutions-for-costly-and-unwieldy-operational-data-and-ai-workloads/",
+    "published": "Wed, 23 Apr 2025 02:28:08 +0000",
+    "summary": "(Résumé auto) The funding infusion sharpens a mission to make hyperscale analytics radically cheaper and greener at the very moment enterprises fear ballooning data‑center power bills....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "More accurate coding: Researchers adapt Sequential Monte Carlo for AI-generated code",
+    "link": "https://venturebeat.com/ai/more-accurate-coding-researchers-adapt-sequential-monte-carlo-for-ai-generated-code/",
+    "published": "Wed, 23 Apr 2025 00:09:49 +0000",
+    "summary": "(Résumé auto) Researchers from MIT, Yale, McGill University and others found that adapting the Sequential Monte Carlo algorithm can make AI-generated code better....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "SWiRL: The business case for AI that thinks like your best problem-solvers",
+    "link": "https://venturebeat.com/ai/swirl-the-business-case-for-ai-that-thinks-like-your-best-problem-solvers/",
+    "published": "Tue, 22 Apr 2025 23:53:59 +0000",
+    "summary": "(Résumé auto) Training LLMs on trajectories of reasoning and tool use makes them superior at multi-step reasoning tasks....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Batch data processing is too slow for real-time AI: How open-source Apache Airflow 3.0 solves the challenge with event-driven data orchestration",
+    "link": "https://venturebeat.com/data-infrastructure/open-source-airflow-3-0-set-to-accelerate-data-orchestration-for-enterprise-ai-inference/",
+    "published": "Tue, 22 Apr 2025 20:00:00 +0000",
+    "summary": "(Résumé auto) Open-source data orchestration gets a major rewrite to help support inference and enterprise AI...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "A new, open source text-to-speech model called Dia has arrived to challenge ElevenLabs, OpenAI and more",
+    "link": "https://venturebeat.com/ai/a-new-open-source-text-to-speech-model-called-dia-has-arrived-to-challenge-elevenlabs-openai-and-more/",
+    "published": "Tue, 22 Apr 2025 17:48:09 +0000",
+    "summary": "(Résumé auto) With a focus on expressive quality, reproducibility, and open access, Dia adds a distinctive new voice to the landscape of text-to-speech....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Relyance AI builds ‘x-ray vision’ for company data: Cuts AI compliance time by 80% while solving trust crisis",
+    "link": "https://venturebeat.com/ai/relyance-ai-builds-x-ray-vision-for-company-data-cuts-ai-compliance-time-by-80-while-solving-trust-crisis/",
+    "published": "Tue, 22 Apr 2025 13:01:00 +0000",
+    "summary": "(Résumé auto) Relyance AI's new Data Journeys platform gives enterprises unprecedented visibility into data flows, reducing AI compliance time by 80% while helping organizations build trustworthy artificial intelli...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "eSelf will bring private AI tutors to students worldwide",
+    "link": "https://venturebeat.com/games/eself-will-bring-private-ai-tutors-to-students-worldwide/",
+    "published": "Tue, 22 Apr 2025 13:00:00 +0000",
+    "summary": "(Résumé auto) eSelf, a startup that focuses on conversational AI agents, is partnering an educational group to bring private AI tutors to students....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "VentureBeat spins out GamesBeat, accelerates enterprise AI mission",
+    "link": "https://venturebeat.com/ai/venturebeat-spins-out-gamesbeat-accelerates-enterprise-ai-mission/",
+    "published": "Tue, 22 Apr 2025 13:00:00 +0000",
+    "summary": "(Résumé auto) VentureBeat today announced the spinout of GamesBeat as a standalone company – a strategic move that sharpens our focus on the biggest transformation of our time: the enterprise shift to AI, data infr...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "I replaced my iPad Air with this Samsung tablet, and it's better in several ways",
+    "link": "https://www.zdnet.com/article/i-replaced-my-ipad-air-with-this-samsung-tablet-and-its-better-in-several-ways/",
+    "published": "Wed, 23 Apr 2025 17:55:00 GMT",
+    "summary": "(Résumé auto) The new Galaxy Tab S10 FE+ is bigger and more powerful than last year's version - but is it worth spending an extra $50?...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "You'll soon manage a team of AI agents, says Microsoft's Work Trend report",
+    "link": "https://www.zdnet.com/article/youll-soon-manage-a-team-of-ai-agents-says-microsofts-work-trend-report/",
+    "published": "Wed, 23 Apr 2025 17:18:00 GMT",
+    "summary": "(Résumé auto) We'll all be working for 'Frontier Firms' soon, according to Microsoft....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "The great AI skills disconnect - and how to fix it",
+    "link": "https://www.zdnet.com/article/the-great-ai-skills-disconnect-and-how-to-fix-it/",
+    "published": "Wed, 23 Apr 2025 16:00:00 GMT",
+    "summary": "(Résumé auto) Exclusive: A new Workera report shows business leaders and employees are deeply split on AI upskilling. Bridge that divide, or else....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "I tested the latest robot vacuum innovation, and it'll leave clean freaks drooling",
+    "link": "https://www.zdnet.com/article/i-tested-the-latest-robot-vacuum-innovation-and-itll-leave-clean-freaks-drooling/",
+    "published": "Wed, 23 Apr 2025 14:37:00 GMT",
+    "summary": "(Résumé auto) Few things surprise me in the robot vacuum market, but Eufy's new Omni E28 is one of them....",
+    "sentiment": "positif"
+  },
+  {
+    "title": "Nvidia launches NeMo software tools to help enterprises build custom AI agents",
+    "link": "https://www.zdnet.com/article/nvidia-launches-nemo-software-tools-to-help-enterprises-build-custom-ai-agents-for-tasks/",
+    "published": "Wed, 23 Apr 2025 13:50:00 GMT",
+    "summary": "(Résumé auto) The agentic AI software is meant to complement human work to improve productivity, the company says....",
+    "sentiment": "positif"
+  },
+  {
+    "title": "AI agents arrive in US classrooms",
+    "link": "https://www.zdnet.com/article/ai-agents-arrive-in-us-classrooms/",
+    "published": "Wed, 23 Apr 2025 13:00:00 GMT",
+    "summary": "(Résumé auto) Kira AI's personalized learning platform is currently being implemented in Tennessee schools. How will it change education?...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Microsoft 365 Copilot Wave 2 is here: Take a look at what's new",
+    "link": "https://www.zdnet.com/article/microsoft-365-copilot-wave-2-is-here-take-a-look-at-whats-new/",
+    "published": "Wed, 23 Apr 2025 13:00:00 GMT",
+    "summary": "(Résumé auto) AI agents, GPT-4o image generation, and a new Copilot Notebook feature are all headed your way....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Why I just added Gemini 2.5 Pro to the very short list of AI tools I pay for",
+    "link": "https://www.zdnet.com/article/why-i-just-added-gemini-2-5-pro-to-the-very-short-list-of-ai-tools-i-pay-for/",
+    "published": "Wed, 23 Apr 2025 12:33:12 GMT",
+    "summary": "(Résumé auto) I refuse to pay for most AI tools but a new one just made the cut - here's why I'm stunned....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "The 4 types of people interested in AI agents - and what businesses can learn from them",
+    "link": "https://www.zdnet.com/article/the-4-types-of-people-interested-in-ai-agents-and-what-businesses-can-learn-from-them/",
+    "published": "Wed, 23 Apr 2025 10:01:00 GMT",
+    "summary": "(Résumé auto) Consumers want agentic AI to simplify their daily lives. This research identifies four personality types who are interested in AI agents....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Anthropic mapped Claude's morality. Here's what the chatbot values (and doesn't)",
+    "link": "https://www.zdnet.com/article/anthropic-mapped-claudes-morality-heres-what-the-chatbot-values-and-doesnt/",
+    "published": "Wed, 23 Apr 2025 08:22:55 GMT",
+    "summary": "(Résumé auto) A study of conversations shows Claude mirroring certain user values and strongly resisting others....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "1Password extends enterprise credential management beyond humans to AI agents",
+    "link": "https://www.zdnet.com/article/1password-extends-enterprise-credential-management-beyond-humans-to-ai-agents/",
+    "published": "Tue, 22 Apr 2025 13:00:19 GMT",
+    "summary": "(Résumé auto) The technology company has introduced three new agentic AI capabilities to its security platform. Here's what those additions mean for IT professionals....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "3 clever ChatGPT tricks that prove it's still the AI to beat",
+    "link": "https://www.zdnet.com/article/3-clever-chatgpt-tricks-that-prove-its-still-the-ai-to-beat/",
+    "published": "Tue, 22 Apr 2025 12:49:00 GMT",
+    "summary": "(Résumé auto) OpenAI's been busy adding some seriously cool features to ChatGPT recently to take it to the next level. Here are a few I love....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "OpenAI's most capable models hallucinate more than earlier ones",
+    "link": "https://www.zdnet.com/article/openais-most-capable-models-hallucinate-more-than-earlier-ones/",
+    "published": "Tue, 22 Apr 2025 10:15:00 GMT",
+    "summary": "(Résumé auto) Researchers say the hallucinations make o3 'less useful'....",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Reimagining Learning: The Transformative Potential of AI in Education",
+    "link": "https://www.aitimejournal.com/reimagining-learning-the-transformative-potential-of-ai-in-education/52593/",
+    "published": "Wed, 23 Apr 2025 13:00:00 +0000",
+    "summary": "(Résumé auto) In every era of technological transformation, education has stood both as a site of disruption and a symbol of adaptation. Much like the dawn of the internet age, the rise of AI today surfaces questio...",
+    "sentiment": "neutre"
+  },
+  {
+    "title": "Srinivas Sandiri, Technology Leader in Digital Transformation — The Evolution of AI in CX, Automation vs. Human Touch, Ethical AI, Cross-Team Alignment, and Preparing the Next Generation",
+    "link": "https://www.aitimejournal.com/srinivas-sandiri-technology-leader-in-digital-transformation-the-evolution-of-ai-in-cx-automation-vs-human-touch-ethical-ai-cross-team-alignment-and-preparing-the-next-generation/52580/",
+    "published": "Tue, 22 Apr 2025 13:00:00 +0000",
+    "summary": "(Résumé auto) In this interview, we speak with Srinivas Sandiri, a seasoned technology leader in digital transformation, whose experience spans over two decades in IT and AI strategy. Drawing from his background in...",
+    "sentiment": "positif"
+  },
+  {
+    "title": "Revolutionizing Energy Markets Through Advanced Data-Driven Analytics: Shruthi Alekha’s Innovative Approach",
+    "link": "https://www.aitimejournal.com/revolutionizing-energy-markets-through-advanced-data-driven-analytics-shruthi-alekhas-innovative-approach/52598/",
+    "published": "Mon, 21 Apr 2025 21:25:37 +0000",
+    "summary": "(Résumé auto) How Advanced Technology Is Transforming Power Forecasting and Reducing Operational Costs The transformation of energy markets isn&#8217;t just happening – it&#8217;s accelerating at breakneck speed as...",
+    "sentiment": "neutre"
+  }
+]
