@@ -1,4 +1,7 @@
 streamlit
 fpdf
+pandas
 feedparser
 python-dotenv
+mistralai
+httpx
